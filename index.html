@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Velvet Fork | Luxury Fine Dining</title>
+
+<link rel="stylesheet" href="thevelvefork.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+<nav class="navbar">
+<div class="logo">The Velvet Fork</div>
+
+<ul class="nav-links">
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#menu">Menu</a></li>
+<li><a href="#special">Specials</a></li>
+<li><a href="#reviews">Reviews</a></li>
+<li><a href="#reservation">Reserve</a></li>
+<li><a href="#contact">Contact</a></li>
+<li><a href="#cart">🛒Cart(<span id="cart-count">0</span>)</a></li>
+</ul>
+
+<div class="menu-btn">
+<i class="fas fa-bars"></i>
+</div>
+</nav>
+</header>
+
+<section class="hero" id="home">
+<div class="hero-content">
+<span>Luxury Fine Dining Experience</span>
+<h1>Where Culinary Art Meets Elegance</h1>
+<p>
+Experience handcrafted gourmet dishes,
+world-class service, and an unforgettable
+ambience at The Velvet Fork.
+</p>
+<div class="hero-buttons">
+<a href="#menu" class="btn">Explore Menu</a>
+<a href="#reservation" class="btn-outline">Book Table</a>
+</div>
+</div>
+</section>
+
+<section class="about" id="about">
+<div class="about-content">
+<h2>About Us</h2>
+<p>
+The Velvet Fork is a luxury dining destination
+offering exquisite cuisine prepared by award-winning
+chefs using premium ingredients from around the world.
+</p>
+<p>
+Every dish is designed to create an unforgettable
+fine dining experience.
+</p>
+</div>
+
+<div class="about-image">
+<img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1000" alt="">
+</div>
+</section>
+
+<section class="menu" id="menu">
+<h2 class="section-title">Signature Menu</h2>
+<div class="menu-container">
+<div class="card">
+<img src="./lavash-rolls-top-view-table.jpg">
+<h3>Grilled Paneer Platter </h3>
+<p>Premium grilled steak with red truffle sauce.</p>
+<span>₹1499</span>
+<button class="cart-btn" onclick="AddToCart('Grilled Paneer Platter',1499)">
+    Add To Cart
+</button>
+</div>
+
+<div class="card">
+<img src="./Wild Mushroom and Herb Risotto with Shaved Parmesan and Black Truffle_ A luxurious vegetarian option, celebrating the bounty of the Transylvanian forests_.jpeg">
+<h3>Tuffle Mushroom Risotto</h3>
+<p>Creamy Arborio rice infused with truffle and wild mushrooms.</p>
+<span>₹1799</span>
+<button class="cart-btn" onclick="AddToCart('Tuffle Mushroom Risotto',1799)">
+    Add To Cart
+</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800">
+<h3>Italian Pizza</h3>
+<p>Wood-fired gourmet pizza with imported cheese.</p>
+<span>₹899</span>
+<button class="cart-btn" onclick="AddToCart('Italian Pizza',899)">
+    Add To Cart
+</button>
+</div>
+</div>
+</section>
+<section class="cart" id="cart">
+    <h2>Your Cart</h2>
+    <ul id="cart-items"></ul>
+    <h3>Total: ₹<span id="total">0</span></h3>
+</section>
+
+<section class="special" id="special">
+<h2 class="section-title">Chef's Specials</h2>
+<div class="special-box">
+<h3>Golden Lobster Delight</h3>
+<p>
+Fresh lobster infused with herbs,
+premium butter and chef-crafted sauces.
+</p>
+<a href="https://wa.me/919598859975" class="btn">Order Now</a>
+</div>
+</section>
+
+<section class="reviews" id="reviews">
+<h2 class="section-title">Guest Reviews</h2>
+<div class="review-container">
+<div class="review">
+<p>
+"Absolutely amazing food and ambience.
+The best fine dining experience I've ever had."
+</p>
+<h4>- Sophia</h4>
+</div>
+<div class="review">
+<p>
+"Exceptional service and stunning presentation.
+Highly recommended."
+</p>
+<h4>- Michael</h4>
+</div>
+<div class="review">
+<p>
+"A luxurious experience from start to finish."
+</p>
+<h4>- Olivia</h4>
+</div>
+</div>
+</section>
+
+<section class="reservation" id="reservation">
+<h2 class="section-title">Reserve Your Table</h2>
+<form>
+<input type="text" placeholder="Full Name" required>
+<input type="email" placeholder="Email" required>
+<input type="date" required>
+<input type="time" required>
+<input type="number" placeholder="Guests" required>
+<button type="submit">Book Now</button>
+</form>
+</section>
+
+<section class="contact" id="contact">
+<h2>Contact Us</h2>
+<div class="contact-info">
+<p>
+<i class="fas fa-location-dot"></i>
+Mumbai, India
+</p>
+<p>
+<i class="fas fa-phone"></i>
++91 9876543210
+</p>
+<p>
+<i class="fas fa-envelope"></i>
+info@thevelvetfork.com
+</p>
+</div>
+</section>
+
+<footer>
+<p>
+© 2026 The Velvet Fork | Luxury Fine Dining
+</p>
+</footer>
+
+<script src="thevelvefork.js"></script>
+
+</body>
+</html>

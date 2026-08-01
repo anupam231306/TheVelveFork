@@ -122,8 +122,7 @@ topBtn.addEventListener("click", () => {
 let cartCount = 0;
 let total = 0;
 
-function AddToCart(name, price){
-
+function AddToCart(name, price) {
     cartCount++;
     total += price;
 
