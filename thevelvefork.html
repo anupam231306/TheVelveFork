@@ -15,7 +15,6 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 
 <body>
 
-<!-- NAVBAR -->
 <header>
 <nav class="navbar">
 <div class="logo">The Velvet Fork</div>
@@ -37,40 +36,30 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 </nav>
 </header>
 
-<!-- HERO -->
 <section class="hero" id="home">
-
 <div class="hero-content">
 <span>Luxury Fine Dining Experience</span>
-
 <h1>Where Culinary Art Meets Elegance</h1>
-
 <p>
 Experience handcrafted gourmet dishes,
 world-class service, and an unforgettable
 ambience at The Velvet Fork.
 </p>
-
 <div class="hero-buttons">
 <a href="#menu" class="btn">Explore Menu</a>
 <a href="#reservation" class="btn-outline">Book Table</a>
 </div>
 </div>
-
 </section>
 
-<!-- ABOUT -->
 <section class="about" id="about">
-
 <div class="about-content">
 <h2>About Us</h2>
-
 <p>
 The Velvet Fork is a luxury dining destination
 offering exquisite cuisine prepared by award-winning
 chefs using premium ingredients from around the world.
 </p>
-
 <p>
 Every dish is designed to create an unforgettable
 fine dining experience.
@@ -80,22 +69,17 @@ fine dining experience.
 <div class="about-image">
 <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1000" alt="">
 </div>
-
 </section>
 
-<!-- MENU -->
 <section class="menu" id="menu">
-
 <h2 class="section-title">Signature Menu</h2>
-
 <div class="menu-container">
-
 <div class="card">
 <img src="./lavash-rolls-top-view-table.jpg">
 <h3>Grilled Paneer Platter </h3>
 <p>Premium grilled steak with red truffle sauce.</p>
 <span>₹1499</span>
-<button class="cart-btn" onclick="AddToCart('Grilled Paneer Platter, 1499')">
+<button class="cart-btn" onclick="AddToCart('Grilled Paneer Platter',1499)">
     Add To Cart
 </button>
 </div>
@@ -105,7 +89,7 @@ fine dining experience.
 <h3>Tuffle Mushroom Risotto</h3>
 <p>Creamy Arborio rice infused with truffle and wild mushrooms.</p>
 <span>₹1799</span>
-<button class="cart-btn" onclick="AddToCart('Tuffle Mushroom Risotto, 1799')">
+<button class="cart-btn" onclick="AddToCart('Tuffle Mushroom Risotto',1799)">
     Add To Cart
 </button>
 </div>
@@ -115,44 +99,33 @@ fine dining experience.
 <h3>Italian Pizza</h3>
 <p>Wood-fired gourmet pizza with imported cheese.</p>
 <span>₹899</span>
-<button class="cart-btn" onclick="AddToCart('Italian Pizza, 899')">
+<button class="cart-btn" onclick="AddToCart('Italian Pizza',899)">
     Add To Cart
 </button>
 </div>
-
 </div>
 </section>
-<section class="cart">
+<section class="cart" id="cart">
     <h2>Your Cart</h2>
     <ul id="cart-items"></ul>
     <h3>Total: ₹<span id="total">0</span></h3>
 </section>
 
-<!-- SPECIAL -->
 <section class="special" id="special">
-
 <h2 class="section-title">Chef's Specials</h2>
-
 <div class="special-box">
 <h3>Golden Lobster Delight</h3>
-
 <p>
 Fresh lobster infused with herbs,
 premium butter and chef-crafted sauces.
 </p>
-
 <a href="https://wa.me/919598859975" class="btn">Order Now</a>
 </div>
-
 </section>
 
-<!-- TESTIMONIALS -->
 <section class="reviews" id="reviews">
-
 <h2 class="section-title">Guest Reviews</h2>
-
 <div class="review-container">
-
 <div class="review">
 <p>
 "Absolutely amazing food and ambience.
@@ -160,7 +133,6 @@ The best fine dining experience I've ever had."
 </p>
 <h4>- Sophia</h4>
 </div>
-
 <div class="review">
 <p>
 "Exceptional service and stunning presentation.
@@ -168,77 +140,53 @@ Highly recommended."
 </p>
 <h4>- Michael</h4>
 </div>
-
 <div class="review">
 <p>
 "A luxurious experience from start to finish."
 </p>
 <h4>- Olivia</h4>
 </div>
-
 </div>
-
 </section>
 
-<!-- RESERVATION -->
 <section class="reservation" id="reservation">
-
 <h2 class="section-title">Reserve Your Table</h2>
-
 <form>
-
 <input type="text" placeholder="Full Name" required>
-
 <input type="email" placeholder="Email" required>
-
 <input type="date" required>
-
 <input type="time" required>
-
 <input type="number" placeholder="Guests" required>
-
 <button type="submit">Book Now</button>
-
 </form>
-
 </section>
 
-<!-- CONTACT -->
 <section class="contact" id="contact">
-
-<h2 class="section-title">Contact Us</h2>
-
+<h2>Contact Us</h2>
 <div class="contact-info">
-
 <p>
 <i class="fas fa-location-dot"></i>
 Mumbai, India
 </p>
-
 <p>
 <i class="fas fa-phone"></i>
 +91 9876543210
 </p>
-
 <p>
 <i class="fas fa-envelope"></i>
 info@thevelvetfork.com
 </p>
-
 </div>
-
 </section>
 
-<!-- FOOTER -->
 <footer>
-
 <p>
 © 2026 The Velvet Fork | Luxury Fine Dining
 </p>
-
 </footer>
 
 <script src="thevelvefork.js"></script>
+<script src="//code.tidio.co/jn1mcowptgryb6zqpv3zldcn4e303dud.js" async></script>
 
 </body>
 </html>
